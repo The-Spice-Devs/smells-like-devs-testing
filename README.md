@@ -1,6 +1,6 @@
-# Playwright for Python
 
-## Integration Tests for Cookie Stand Admin
+# smells-like-devs-testing
+## Integration Tests for Smells Like Devs Cooking
 
 ### Installation
 
@@ -17,4 +17,3 @@ pip install pytest-playwright
   - `pytest`
   - or `pytest --headed --slowmo 500` to be extra fancy.
 - See [Getting Started](https://playwright.dev/python/docs/intro){:target="_blank"} and [Pytest Plugin](https://playwright.dev/python/docs/test-runners){:target="_blank"} for additional details.
-# smells-like-devs-testing
