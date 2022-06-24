@@ -7,7 +7,7 @@ def test_home(page):
     page.goto("https://smells-like-devs-cooking-frontend-rho.vercel.app/")
 
     assert page.title() == "Smells Like Devs Cooking"
-    assert page.inner_text("a") == "The Spice Devs GitHub"
+    assert page.inner_text("a") == "\xa0\xa0Home"
     # assert page.inner_text("a") == "sign up"
 
     # username_value = page.locator("text=USER NAME").input_value()
@@ -18,7 +18,7 @@ def test_home(page):
 
 
 def test_home_page_values(logged_in_page):
-    assert logged_in_page.inner_text("a") == "The Spice Devs GitHub"
+    assert logged_in_page.inner_text("a") == "\xa0\xa0Home"
     # assert logged_in_page.inner_text("a") == "About the Cooks"
     # assert logged_in_page.inner_text("a") == "Create a Blog Post"
     # assert logged_in_page.inner_text("a") == "admin's profile"
